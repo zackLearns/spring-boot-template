@@ -12,6 +12,7 @@ repositories {
 dependencies {
 
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.2.0.RELEASE'
+    compile group: 'org.springframework', name: 'spring-tx', version: '5.2.1.RELEASE'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.4.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.4.2'
